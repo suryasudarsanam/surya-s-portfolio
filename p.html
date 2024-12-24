@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="p.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">SURYA MANIKANTA SUDARSANAM</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">SURYA MANIKANTA SUDARSANAM</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="myprofile.jpg" alt="SURYA SUDARSANAM picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">SURYA MANIKANTA SUDARSANAM</h1>
+        <p class="section__text__p2">Software Developer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('resume_surya.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="https://tse1.mm.bing.net/th?id=OIP.sRj8gQnEyHhNJcBNFHZoLAHaHa&pid=Api&P=0&h=180"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/surya-sudarsanam-847543289/'"
+          />
+          <img
+            src="https://tse3.mm.bing.net/th?id=OIP.9B4NoA0XTQUhk62iCKkCdQHaH7&pid=Api&P=0&h=180"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/suryasudarsanam'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1"><b>Get To Know More</b></p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="https://icon-library.com/images/experience-icon/experience-icon-8.jpg"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p><b>1 Month Intern as Frontend Developer in<br/>ByteCode</b></p>
+              <p><b>1 Month Intern as Webdeveloper in<br/>CodeWay</b></p>
+            </div>
+            <div class="details-container">
+              <img
+                src="http://clipart-library.com/images_k/education-clipart-transparent/education-clipart-transparent-7.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p><b>B.TECH- Vishnu Institute of Technology<br></b></p>
+              <p><b>Intermediate - Sasi Junior College </b></p>
+              <p><b>SSC -Dr.K.K.R's Gowtham E.M School</b></p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              <h1>Hello <br> I'm SURYA <span>MANIKANTA,</span></h1>
+         <p><b>A passionate Information Technology undergraduate from Vishnu Institute of Technology, Bhimavaram, with a CGPA of 8.7. My expertise lies in web development, backend systems, and machine learning, with strong proficiency in programming languages like Python, Java, and C.<br>
+          I have successfully executed projects such as an Online Payment Fraud Detection System leveraging machine learning to enhance fraud detection accuracy and a Smart Complaint Management System developed with Node.js and MongoDB, ensuring scalability and efficiency.</b></p>
+             <p><b>During internships at CodeWay and Bytecode Solutions, I honed my front-end and back-end development skills, mastering technologies like HTML, CSS, JavaScript, and frameworks like React.js. Additionally, my participation in hackathons, including securing 2nd place at Hack-IT-Tron, reflects my problem-solving abilities and passion for innovation.<br>
+              Certified in Web Development (IBM), Python (HackerRank), and MongoDB (Geeks for Geeks), I am committed to delivering impactful, scalable, and user-centric solutions. My journey is driven by a continuous quest for learning and contributing to technology that makes a difference.</b></p>
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="https://static.vecteezy.com/system/resources/previews/000/615/553/original/vector-down-arrow-icon.jpg"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1"><b>Explore My</b></p>
+      <h1 class="title">Skills</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Full Stack Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="https://static.vecteezy.com/system/resources/previews/001/416/705/non_2x/html5-emblem-orange-shield-and-white-text-vector.jpg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="http://opencode.us/wp-content/uploads/2013/10/css3_logo.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://www.pngitem.com/pimgs/m/116-1167737_logo-javascript-pattern-copyright-framework-free-download-javascript.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React.js Icon" width="50" height="50"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>React.js</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://pluspng.com/img-png/logo-mongodb-png-mongo-db-badge-sticker-600.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>MongoDb</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt="Express.js Icon" width="50" height="50""
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Express.js</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://e7.pngegg.com/pngimages/540/810/png-clipart-node-js-javascript-npm-computer-icons-web-application-others-miscellaneous-text.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Node.js</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://nextsoftware.io/files/images/logos/main/django-logo.png" alt="Django Icon" width="50" height="50"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Django</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Programming Languages</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="https://static.vecteezy.com/system/resources/previews/012/697/295/large_2x/3d-python-programming-language-logo-free-png.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                  <p>Advanced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://download.logo.wine/logo/Java_(programming_language)/Java_(programming_language)-Logo.wine.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Java</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://www.pinclipart.com/picdir/big/539-5392404_transparent-c-language-logo-png-clipart.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>C Language</h3>
+                  <p>Advanced</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="https://static.vecteezy.com/system/resources/previews/000/615/553/original/vector-down-arrow-icon.jpg"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1"><b>Browse My Recent</b></p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="project.webp"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title"> Smart Complaint Management System</h2>
+            <p><b>Created a Smart Complaint Management System using Node.js and MongoDB to streamline the process of submitting and managing complaints. The system allows users to easily file complaints, track their status, and receive updates in real time, while the backend efficiently handles data storage and retrieval through MongoDB</b></p>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="project2.webp"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Online Payment Fraud Detection</h2>
+            <p><b>Developed an online payment fraud detection system using machine learning algorithms to identify fraudulent transactions. The backend is built with Django, providing a seamless connection between the frontend and the machine learning model. The system efficiently analyzes payment data to detect suspicious patterns, offering a robust solution for secure online transactions.</b></p>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/suryasudarsanam'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/suryasudarsanam'"
+              >
+                Live Demo
+              </button>
+            </div>
+        
+          </div>
+        </div>
+      </div>
+      <img
+        src="https://static.vecteezy.com/system/resources/previews/000/615/553/original/vector-down-arrow-icon.jpg"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="https://tse1.mm.bing.net/th?id=OIP.7Lvk4PnmbaOvbSUqWI8ITQHaHa&pid=Api&P=0&h=180"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:suryasudarsanam456@gmail.com">suryasudarsanam456@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="https://tse1.mm.bing.net/th?id=OIP.sRj8gQnEyHhNJcBNFHZoLAHaHa&pid=Api&P=0&h=180"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/surya-sudarsanam-847543289/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2023 John Doe. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
